@@ -1,0 +1,49 @@
+body, html {
+  height: 100%;
+}
+
+/*parallax scrolling effect */
+.bkgr-img {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: 0.50;
+}
+
+/*image specifications*/
+.top-img {
+  background-image: url("../images/planks.jpg");
+  min-height: 100%;
+}
+
+.mdl-img {
+  background-image: url("../images/tools.jpg");
+  min-height: 100%;
+}
+
+.btm-img {
+  background-image: url("../images/router.jpg");
+  min-height: 100%;
+}
+
+.title-text {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.bio-text, .info-text {
+  background-color: #4f5154;
+  color: white;
+}
+h2 {
+  margin: 0;
+  padding: 20px;
+}
+p {
+  margin: 0;
+  padding: 20px;
+}
