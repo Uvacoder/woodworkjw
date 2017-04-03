@@ -36,12 +36,13 @@ body, html {
   color: white;
 }
 .bio-text, .info-text {
-  background-color: #4f5154;
+  background-color: #252422;
   color: white;
 }
 h2 {
   margin: 0;
   padding: 20px;
+  text-align: center;
 }
 p {
   margin: 0;
