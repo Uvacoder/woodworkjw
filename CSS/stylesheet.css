@@ -1,5 +1,6 @@
 body, html {
   height: 100%;
+  margin: 0;
 }
 
 /*parallax scrolling effect */
@@ -28,23 +29,54 @@ body, html {
   min-height: 100%;
 }
 
-.title-text {
+.company-text {
   position: absolute;
   top: 40%;
   width: 100%;
   text-align: center;
   color: white;
 }
-.bio-text, .info-text {
+
+.portfolio-text, .info-text, .contact-text {
   background-color: #252422;
   color: white;
+  margin: 0;
 }
+
+.flex-container{
+  display: inline-flex;
+  flex-flow: row wrap;
+  list-style: none;
+  justify-content: space-around;
+  justify-content: center;
+  padding: 0;
+}
+
+.flex-img{
+  margin: 0;
+  padding: 5px;
+}
+
 h2 {
   margin: 0;
   padding: 20px;
   text-align: center;
 }
+
 p {
   margin: 0;
   padding: 20px;
+}
+
+ul {
+  margin: inherit;
+}
+
+figcaption {
+  background-color:
+  text-align: center;
+}
+
+img {
+  display: block;
 }
