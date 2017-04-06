@@ -72,8 +72,12 @@ ul {
   margin: inherit;
 }
 
+figure {
+  margin: 0;
+}
+
 figcaption {
-  background-color:
+  background-color: #191919;
   text-align: center;
 }
 
